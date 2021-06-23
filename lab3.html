@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+  <title>TRIBUTE</title>
+ <style>
+
+    * {
+
+      box-sizing: border-box;
+    }
+    body {
+
+      font-family: Arial, Helvetica, sans-serif;
+
+    }
+    header {
+
+      background-color: red;
+
+      padding: 5px;
+
+      text-align: center;
+
+      font-size: 15px;
+
+      color: BLACK;
+
+    }
+    nav {
+
+      float: left;
+
+      width: 30%;
+
+      height: 660px;
+
+      background: #ccc;
+
+      padding: 20px;
+
+    }
+    article {
+
+      float: left;
+
+      padding: 20px;
+
+      width: 70%;
+
+      background-color: black;
+
+      height: 660px;
+    }
+    .big-circle{
+    width: 200px;
+    height: 200px;
+    border: 10px solid red;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    }
+    .small-circle{
+    width: 190px;
+    height: 190px;
+    border: 10px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    background-image: url("mara.jpg");
+    background-position: top;
+    background-size: cover;
+    }
+    section:after {
+
+      content: "";
+
+      display: table;
+
+      clear: both;
+
+    }
+    footer {
+
+      background-color: red;
+
+      padding: 10px;
+
+      text-align: center;
+
+      color: white;
+
+    }
+    art{
+      background-color: red;
+    }
+     a:link, a:visited {
+    background-color: black;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    }
+
+a:hover, a:active {
+  background-color: blue;
+}
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color:white;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: black;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: grab;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}
+.container {  
+    padding: 50px;  
+    background-color: red;  
+  }
+  </style>
+
+</head>
+<body onload="Intern()">
+<script>
+  function Intern() {
+    alert("WELCOME TO MY TRIBUTE");
+  }
+  </script>
+  
+
+  <header>
+
+    <h1 style="text-align: center;">SIDEHUSTLE INTERNSHIP</h1>
+
+  </header>
+    <header>
+     <h3 style="text-align: left;">NAME OF INTERN: AFULA FAVOUR ASHIKEM &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INTERN ID: SH-IT-53428&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BEST LIFE QUOTE: BE GOOD</h3> 
+  </header>
+
+  <section>
+
+    <nav>
+<H4 style="color: red">A TRIBUTE TO MARADONA</H4>
+    <div class="big-circle">
+      <div class="small-circle"></div>
+    </nav>
+
+            <article>
+
+      <h1 style="color: red">A TRIBUTE TO OUR LEGEND</h1>
+
+      <p style="color: red">There, with your passing, it's much more than a kid's dream fading away; it's the end of 'my' football, of the idea that I have always had you as the symbol, the model and the spokesperson, all at once. A football full of live, audacity, mischief and freedom.</p>
+      <art>
+      <form name="RegForm" action="/submit.php"
+			onsubmit="return REGISTRATION()" method="post">  
+  <div class="container">   
+  <input type="text" name="firstname" placeholder= "Name" size="15" required />     
+<label>   
+Phone :  
+</label>   
+<input type="text" name="Telephone" placeholder="phone no." size="10" required>   
+ <label for="email"><b>Email</b></label>  
+ <input type="text" placeholder="Enter Email" name="email" required >
+ <div>    
+  <input type="radio" name="gender" > Male   
+  <input type="radio" name="gender"> Female   
+  
+</div>
+<div>    
+  <input type="date" name="gender" > DATE
+</div>
+ <input type="submit" value="REGISTER" name="Submit" class="registerbtn" />    
+    </div>
+</form>
+</art>
+    </article>
+    
+  </section>
+
+  <footer>
+
+    
+
+  </footer>
+
+</body>
+
+
+</html>
